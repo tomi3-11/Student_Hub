@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Hub</title>
+</head>
+
+<body>
+    <!-- the side bar section of the website -->
+    <section class="sidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-top">
+                <img src="#" alt="" class="logo">
+                <h2 class="sidebar-title">Student Hub</h2>
+            </div>
+            <div class="sidebar-body">
+                <ul class="sidebar-links">
+                    <li><a href="#" class="nav-link active" data-target="dashboard"><i class="fa fa-home"></i>Dashboard</a></li>
+                    <li><a href="#" class="nav-link" data-target="schedule"><i class="fa fa-home"></i>Class Schedules</a></li>
+                    <li><a href="#" class="nav-link" data-target="assignments"><i class="fa fa-home"></i>Assignments</a></li>
+                    <li><a href="#" class="nav-link" data-target="exams"><i class="fa fa-home"></i>Exams</a></li>
+                    <li><a href="#" class="nav-link" data-target="notes"><i class="fa fa-home"></i>Notes</a></li>
+                    <li><a href="#" class="nav-link" data-target="resources"><i class="fa fa-home"></i>StudyResources</a></li>
+                    <li><a href="#" class="nav-link" data-target="timer"><i class="fa fa-home"></i>PomodoroTimer</a></li>
+                    <li><a href="#" class="nav-link" data-target="gpa"><i class="fa fa-calculator"></i>GPA</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Side Bar section ends -->
+
+    <!-- The main Section for the body Starts -->
+    <section class="main">
+        <!-- The dashboard Page -->
+        <div class="page active" id="dashboard active">
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <h1 class="page-title">Good Morning, Student!</h1>
+                    <p class="page-subtitle">Ready to tackle your academic goals today?</p>
+                </div>
+                <div class="dashboard-card">
+                    <div class="dashboard-mini-card">
+                        <h4>Today's Classes</h4>
+                        <p>3</p>
+                    </div>
+                    <div class="dashboard-mini-card">
+                        <h4>Pending Assignments</h4>
+                        <p>5</p>
+                    </div>
+                    <div class="dashboard-mini-card">
+                        <h4>Upcoming Exams</h4>
+                        <p>2</p>
+                    </div>
+                </div>
+                <!-- Middle Section -->
+                <div class="dashboard-card">
+                    <h3>Today's Schedule</h3>
+                    <a href="#">View All</a>
+                    <div class="dashboard-card-schedules">
+                        <div class="schedule-list">
+                            <h4>Mathematics</h4>
+                            <p>Room 201 - Prof.Johnson</p>
+                        </div>
+                        <div class="schedule-list">
+                            <h4>Physics</h4>
+                            <p>Lab 3 - Dr.Tom</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bottom Section -->
+                <div class="dashboard-card">
+                    <h3>Quick Actions</h3>
+                    <div class="quick-action-card">
+                        <div class="card-icon document"></div>
+                        <a href="#">add Assignment</a>
+                    </div>
+                    <div class="quick-action-card">
+                        <div class="card-icon notes"></div>
+                        <a href="#">Take Notes</a>
+                    </div>
+                    <div class="quick-action-card">
+                        <div class="card-icon timer"></div>
+                        <a href="#">Start Timer</a>
+                    </div>
+                    <div class="quick-action-card">
+                        <div class="card-icon calculator"></div>
+                        <a href="#">Calculator GPA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dashboard Ends -->
+
+        <!-- Class Schedules Starts -->
+        <div class="schedules">
+            <div class="page" id="schedules">
+                <!-- Continue Here -->
+                 <h1>Class Schedules</h1>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- JavaScript for altering the pages when the sidebar is clicked -->
+    <script src="./static/JS/student_hub.js"></script>
+</body>
+
+</html>
