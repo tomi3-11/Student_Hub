@@ -1,7 +1,6 @@
 # Student Hub
 ##
-### **A platform where students track their academic life with ease. Build by student who faced a problem and are solving it with Student Hub
-**
+### **A platform where students track their academic life with ease. Build by student who faced a problem and are solving it with Student Hub**
 
 <!--
 Area to be added
