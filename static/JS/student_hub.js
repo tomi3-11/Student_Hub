@@ -11,7 +11,7 @@ links.forEach(link => {
 
         // Add active class to clicked link and matching page
         this.classList.add('active');
-        const target = document.getElementById(this.getAttribute("data-target"));
+        const target = document.getElementById(this.getAttribute('data-target'));
         target.classList.add('active');
     })
 })
