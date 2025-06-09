@@ -7,6 +7,8 @@
     <title>Student Hub</title>
     <!-- Styling in CSS link -->
     <link rel="stylesheet" href="./static/CSS/student_hub.css">
+    <!--Font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -109,32 +111,36 @@
             <div class="page" id="schedules">
                 <!-- Continue Here -->
                 <h1>Class Schedules</h1>
+                <a href="#" alt="add"><i class="fa fa-plus-square-o"></i>Add Class</a>
+            </div>
+        <div class="schedules-grid">
+            <div class="schedules-card-Monday">
+                <h3>Monday</h3>
+                <div class="class-card-green">
+                    <p>Physics</p>
+                    <p><i class="fa fa-clock-o"></i>2:00 PM</p>
+                    <p><i class="fa fa-map-marker"></i>Lab 3</p>
+                    <p><i class="fa fa-user"></i>Dr. Smith</p>
+                </div>
+                <div class="class-card-blue">
+                    <p>Mathematics</p>
+                    <p><i class="fa fa-clock-o"></i>9:00 AM</p>
+                    <p><i class="fa fa-map-marker"></i>Room 201</p>
+                    <p><i class="fa fa-user"></i>Prof. Johnson</p>
+                </div>
             </div>
 
-           <!--Card slide for daily schedules-->
-           <div class="slide-container">
-              <div class="slide-content">
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-
-                            <div class="card-image">
-                                <img src="#" alt="" class="card-image">
-                            </div>
-                        </div>
-
-                        <div class="card-content">
-                            <h2 class="day">Monday</h2>
-                            <!--or should it be a link instead??-->
-                            <p class="description">Room 201 - Prof.Johnson</p>
-                        </div>
-                    </div>
+            <div class="schedules-card-tuesday">
+                <h3>Tuesday</h3>
+                <div class="class-card-purple">
+                    <p>Chemistry</p>
+                    <p><i class="fa fa-clock-o"></i> 10:00 AM</p>
+                    <p><i class="fa fa-map-marker"></i>Room 105</p>
+                    <p><i class="fa fa-user"></i>Prof. Davis</p>
                 </div>
-              </div>
-           </div>
-
+            </div>
         </div>
+          
              
     </section>
 
