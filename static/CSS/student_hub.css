@@ -229,3 +229,76 @@ So far Styled Roughly
     cursor: pointer;
 }
 
+.schedules-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.schedules-card {
+    background: white;
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.04);
+}
+
+.schedules-card h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.schedules-card p {
+    color: #888;
+    margin-top: 8px;
+}
+
+.class-card {
+    background-color: #f0f0f0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.class-card h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.green {
+    background-color: #b8f0c4;
+}
+
+.green h4 {
+    color: green;
+}
+
+.green p {
+    color: green;
+}
+
+.blue {
+    background-color: #a6c0eb;
+
+}
+
+.blue h4 {
+    color: blue;
+}
+.blue p {
+    color: blue;
+}
+
+.purple {
+    background-color: #d0b4f1;
+}
+
+.purple h4 {
+    color: purple;
+}
+
+.purple p {
+    color: purple;
+}
+
