@@ -66,7 +66,7 @@ body {
 
 .dashboard-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit minmax(350px 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px 1fr));
     margin: 0 auto;
     padding: 0 1px;
 }
@@ -181,15 +181,23 @@ body {
 }
 
 .quick-cards {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .quick-action-card {
     border: 1px solid hsl(0, 3%, 77%);
     padding: 1rem 1.6rem;
     border-radius: 10px;
-    margin-top: 1rem;
+    margin: 1rem 0.5rem 0 0.5rem;
+    /* flex-flow: 1; */
+
+}
+
+.one, .two, .three, .four {
+    flex-grow: 1;
 }
 
 .quick-action-card a{
